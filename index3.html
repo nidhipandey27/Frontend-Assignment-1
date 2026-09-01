@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Us</title>
+
+    <style>
+        /* Element Selector */
+        body {
+            font-family: Arial;
+            background-color: #f2f2f2;
+            margin: 20px;
+        }
+
+        /* ID Selector */
+        #heading {
+            text-align: center;
+            color: rgb(0, 102, 204);
+        }
+
+        /* Class Selector */
+        .about {
+            background-color: #ffffff;
+            padding: 20px;
+            border: 2px solid #333333;
+        }
+
+        .movies {
+            color: #cc0000;
+        }
+
+        .cities {
+            color: rgb(0, 128, 0);
+        }
+
+        /* Pseudo-class Selector */
+        li:hover {
+            color: orange;
+            cursor: pointer;
+        }
+
+        /* Styling ordered list */
+        ol {
+            background-color: #ffe6e6;
+            padding: 20px;
+        }
+
+        /* Styling unordered list */
+        ul {
+            background-color: #e6ffe6;
+            padding: 20px;
+        }
+
+        /* Cascading - more specific class style */
+        .movies li {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 id="heading">About Us</h1>
+
+    <div class="about">
+        <h2>Who We Are</h2>
+
+        <p>
+            We are a group of students who love learning,
+            technology, movies and travelling.
+        </p>
+
+        <h2>Our Favourite Movies</h2>
+
+        <ol class="movies">
+            <li>Sanam teri kasam</li>
+            <li>Laila Majnu</li>
+            <li>Chhichhore</li>
+            <li>Bahubali</li>
+        </ol>
+
+        <h2>Our Favourite Cities</h2>
+
+        <ul class="cities">
+            <li>Delhi</li>
+            <li>Meerut</li>
+            <li>Jaipur</li>
+            <li>Lucknow</li>
+        </ul>
+    </div>
+
+</body>
+</html>
